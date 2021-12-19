@@ -7,6 +7,7 @@ import me.tux.cool.util.WriteUtil;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.Objects;
 import java.util.Scanner;
 
 public class main {
@@ -18,7 +19,11 @@ public class main {
         FileWriter file = new FileWriter("README.md", true);
         File f = new File("README.md");
 
+
+
         if (f.exists() && f.canRead()) {
+
+
 
             try {
                 file.write(System.lineSeparator());
@@ -30,12 +35,15 @@ public class main {
 
             }
 
+            f.delete();
+            f.createNewFile();
+
             System.out.println("Please enter your Github username: " + ColourUtil.PURPLE);
 
             Scanner usn = new Scanner(System.in);
             String username = usn.nextLine();
 
-            System.out.println("Please choose a GIF.: " + ColourUtil.PURPLE);
+            System.out.println("Please choose a GIF: ");
             Thread.sleep(300);
 
             System.out.println(ColourUtil.PURPLE + "1. Hands");
@@ -70,10 +78,58 @@ public class main {
 
                     case "3":
                         file.write("<img src=\"https://64.media.tumblr.com/3ececbb033456396a8cdb3483153f1c6/tumblr_muby2mnWSc1qhl91yo1_r1_250.gifv\" width=\"28\">");
-                        file.write(WriteUtil.SKIP + "</h3>" );
+                        file.write(WriteUtil.SKIP + "</h3>" + WriteUtil.SKIP);
                         break;
 
                 }
+                System.out.println("Contact ME:");
+                Thread.sleep(300);
+
+                System.out.println(ColourUtil.PURPLE + "1. Github");
+                Thread.sleep(300);
+
+                System.out.println(ColourUtil.PURPLE + "2. Discord");
+                Thread.sleep(300);
+
+                System.out.println(ColourUtil.PURPLE + "3. Both");
+                Thread.sleep(300);
+
+                Scanner socialm = new Scanner(System.in);
+                String sclm = socialm.next();
+
+
+                switch (sclm) {
+
+                    default:
+                    case "1":
+                        file.write(WriteUtil.SKIP);
+                        file.write(WriteUtil.SKIP + "# Contact Me:");
+                        file.write(WriteUtil.SKIP + "- Github:" + "[" + username + "]" +"(https://github.com/" + username + ")");
+                        break;
+
+                    case "2":
+                        System.out.print(ColourUtil.PURPLE + "Please enter your Discord ID");
+
+                        Scanner discord = new Scanner(System.in);
+                        String discordid = discord.next();
+
+                        file.write(WriteUtil.SKIP);
+                        file.write(WriteUtil.SKIP + "# Contact Me:");
+                        file.write(WriteUtil.SKIP + "- Discord:" + "[Discord]" +"(https://discord.com/users/" + discordid + ")");
+                        break;
+
+                    case "3":
+                        file.write(WriteUtil.SKIP + "# Contact Me:");
+                        file.write(WriteUtil.SKIP + "- Github:" + "[" + username + "]" +"(https://github.com/" + username + ")");
+
+                        System.out.print(ColourUtil.PURPLE + "Please enter your Discord ID");
+
+                        discord = new Scanner(System.in);
+                        discordid = discord.next();
+
+                        file.write(WriteUtil.SKIP + "- Discord:" + "[Discord]" +"(https://discord.com/users/" + discordid + ")");
+                }
+
 
                 System.out.println(DebugUtil.SUCCESS + "Writing to file" + ColourUtil.RESET);
             } catch (IOException e) {
