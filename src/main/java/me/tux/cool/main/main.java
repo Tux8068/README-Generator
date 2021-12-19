@@ -1,6 +1,7 @@
 package me.tux.cool.main;
 
 import me.tux.cool.util.ColourUtil;
+import me.tux.cool.util.DebugUtil;
 import me.tux.cool.util.WriteUtil;
 
 import java.io.File;
@@ -21,10 +22,10 @@ public class main {
 
             try {
                 file.write(System.lineSeparator());
-                System.out.println(ColourUtil.GREEN + "File Created" + ColourUtil.RESET);
+                System.out.println(DebugUtil.SUCCESS + "File Created" + ColourUtil.RESET);
 
             } catch (IOException e) {
-                System.out.println(ColourUtil.FAIL + "File Couldn't be created.");
+                System.out.println(DebugUtil.FAIL + "File Couldn't be created.");
                 e.printStackTrace();
 
             }
@@ -74,7 +75,7 @@ public class main {
 
                 }
 
-                System.out.println(ColourUtil.GREEN + "Writing to file successful." + ColourUtil.RESET);
+                System.out.println(DebugUtil.SUCCESS + "Writing to file" + ColourUtil.RESET);
             } catch (IOException e) {
                 e.printStackTrace();
                 System.out.println(ColourUtil.RED + "Writing to file failed." + ColourUtil.RESET);
@@ -85,7 +86,7 @@ public class main {
             }
 
         } else {
-            System.out.println(ColourUtil.FAIL + "File couldn't be read/created.");
+            System.out.println(DebugUtil.FAIL + "File couldn't be read/created.");
         }
     }
 }

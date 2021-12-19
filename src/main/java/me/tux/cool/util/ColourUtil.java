@@ -9,5 +9,4 @@ public class ColourUtil {
     public static String BLUE = "\033[0;34m";
     public static String PURPLE = "\033[0;35m";
 
-    public static String FAIL = "\033[0;31m Failed action: \033[0;33m";
 }
