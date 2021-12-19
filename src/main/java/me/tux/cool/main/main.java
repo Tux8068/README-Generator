@@ -82,6 +82,54 @@ public class main {
                         break;
 
                 }
+                System.out.println("Stats/ Highlights:");
+                Thread.sleep(300);
+
+                System.out.println(ColourUtil.PURPLE + "1. Language Stats");
+                Thread.sleep(300);
+
+                System.out.println(ColourUtil.PURPLE + "2. Repo Highlight");
+                Thread.sleep(300);
+
+                System.out.println(ColourUtil.PURPLE + "3. Both");
+                Thread.sleep(300);
+
+                Scanner stats = new Scanner(System.in);
+                String stat = stats.next();
+
+
+                switch (stat) {
+
+                    default:
+                    case "1":
+                        file.write(WriteUtil.SKIP);
+                        file.write(WriteUtil.SKIP + "# Github stats:");
+                        file.write(WriteUtil.SKIP + "<img src=\"https://github-readme-stats.vercel.app/api/top-langs/?username=" + username + "\" width=\"192\">");
+                        break;
+
+                    case "2":
+                        System.out.print(ColourUtil.PURPLE + "Please enter your desired repo");
+
+                        Scanner repo = new Scanner(System.in);
+                        String reponame = repo.next();
+
+                        file.write(WriteUtil.SKIP);
+                        file.write(WriteUtil.SKIP + "# Highlight Projects:");
+                        file.write(WriteUtil.SKIP + "[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=" + username +" &repo=" +reponame+ ")]");
+                        break;
+
+                    case "3":
+                        file.write(WriteUtil.SKIP + "# Github stats and Highlight Projects:");
+                        file.write(WriteUtil.SKIP + "<img src=\"https://github-readme-stats.vercel.app/api/top-langs/?username=" + username + "\" width=\"192\">");
+
+                        System.out.print(ColourUtil.PURPLE + "Please enter your desired repo");
+
+                        repo = new Scanner(System.in);
+                        reponame = repo.next();
+
+                        file.write(WriteUtil.SKIP + "[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=" + username +" &repo=" +reponame+ ")]");
+    
+                }
                 System.out.println("Contact ME:");
                 Thread.sleep(300);
 
