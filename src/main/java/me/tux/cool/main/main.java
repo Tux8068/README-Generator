@@ -68,7 +68,7 @@ public class main {
 
                     case "2":
                         file.write("<img src=https://cdn-learn.adafruit.com/assets/assets/000/075/201/original/gaming_vita_Idle.gif?1556902250\" width=\"28\">");
-                        file.write(WriteUtil.SKIP + "</h3>");
+                        file.write(WriteUtil.SKIP + "</h3>" + WriteUtil.SKIP);
                         break;
 
                     case "3":
@@ -219,7 +219,6 @@ public class main {
                 System.out.println(ColourUtil.RED + "Writing to file failed." + ColourUtil.RESET);
 
             } finally {
-                if (file != null) ;
                 file.close();
             }
 
