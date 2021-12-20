@@ -54,7 +54,7 @@ public class main {
 
 
             try {
-
+                file.write("<!-- ReadMD generator by Thnks_CJ and Tuxiscool -->" + WriteUtil.SKIP);
                 file.write("<h3 align=\"center\">" + WriteUtil.SKIP);
                 file.write("Welcome to " + username + "'s profile!" + WriteUtil.SKIP);
 
@@ -67,8 +67,8 @@ public class main {
                         break;
 
                     case "2":
-                        file.write("<img src=https://cdn-learn.adafruit.com/assets/assets/000/075/201/original/gaming_vita_Idle.gif?1556902250\" width=\"28\">");
-                        file.write(WriteUtil.SKIP + "</h3>" + WriteUtil.SKIP);
+                        file.write("<img src=https://cdn.cjstevenson.com/images/dino.gif?1556902250\" width=\"28\">");
+                        file.write(WriteUtil.SKIP + "</h3>");
                         break;
 
                     case "3":
@@ -77,6 +77,146 @@ public class main {
                         break;
 
                     case "4":
+                }
+                System.out.println("What Type Of Developer Are You?: ");
+                Thread.sleep(300);
+    
+                System.out.println(ColourUtil.PURPLE + "1. Discord Bot Developer");
+                Thread.sleep(300);
+    
+                System.out.println(ColourUtil.PURPLE + "2. Java Developer");
+                Thread.sleep(300);
+    
+                System.out.println(ColourUtil.PURPLE + "3. Frontend Developer");
+                Thread.sleep(300);
+    
+                System.out.println(ColourUtil.PURPLE + "4. Backend Developer");
+                Thread.sleep(300);
+
+                System.out.println(ColourUtil.PURPLE + "5. Fullstack Developer");
+                Thread.sleep(300);
+
+                System.out.println(ColourUtil.PURPLE + "6. C Developer");
+                Thread.sleep(300);
+
+                System.out.println(ColourUtil.PURPLE + "7. C++ Developer");
+                Thread.sleep(300);
+
+                System.out.println(ColourUtil.PURPLE + "8. C# Developer");
+                Thread.sleep(300);
+
+                System.out.println(ColourUtil.PURPLE + "9. JavaScript Developer");
+                Thread.sleep(300);
+
+                System.out.println(ColourUtil.PURPLE + "10. PHP Developer");
+                Thread.sleep(300);
+
+                System.out.println(ColourUtil.PURPLE + "11. Kotlin Developer");
+                Thread.sleep(300);
+
+                System.out.println(ColourUtil.PURPLE + "12. All Of These");
+                Thread.sleep(300);
+
+                Scanner devtype = new Scanner(System.in);
+                String dev = devtype.next();
+
+                switch (dev) {
+
+                    case "1":
+                        file.write(WriteUtil.SKIP);
+                        file.write(WriteUtil.SKIP + "<!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->");
+                        file.write(WriteUtil.SKIP + "<p align=\"center\">");
+                        file.write(WriteUtil.SKIP + "<img src=https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Discord+Bot+Developer\">");
+                        file.write(WriteUtil.SKIP + "</p>");
+                        break;
+
+                    case "2":
+                        file.write(WriteUtil.SKIP);
+                        file.write(WriteUtil.SKIP + "<!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->");
+                        file.write(WriteUtil.SKIP + "<p align=\"center\">");
+                        file.write(WriteUtil.SKIP + "<img src=https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Java+Developer\">");
+                        file.write(WriteUtil.SKIP + "</p>");
+                        break;
+
+                    case "3":
+                        file.write(WriteUtil.SKIP);
+                        file.write(WriteUtil.SKIP + "<!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->");
+                        file.write(WriteUtil.SKIP + "<p align=\"center\">");
+                        file.write(WriteUtil.SKIP + "<img src=https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Frontend+Developer\">");
+                        file.write(WriteUtil.SKIP + "</p>");
+                        break;
+
+                    case "4":
+                        file.write(WriteUtil.SKIP);
+                        file.write(WriteUtil.SKIP + "<!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->");
+                        file.write(WriteUtil.SKIP + "<p align=\"center\">");
+                        file.write(WriteUtil.SKIP + "<img src=https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Backend+Developer\">");
+                        file.write(WriteUtil.SKIP + "</p>");
+                        break;
+
+                    case "5":
+                        file.write(WriteUtil.SKIP);
+                        file.write(WriteUtil.SKIP + "<!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->");
+                        file.write(WriteUtil.SKIP + "<p align=\"center\">");
+                        file.write(WriteUtil.SKIP + "<img src=https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Fullstack+Developer\">");
+                        file.write(WriteUtil.SKIP + "</p>");
+                        break;
+
+                    case "6":
+                        file.write(WriteUtil.SKIP);
+                        file.write(WriteUtil.SKIP + "<!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->");
+                        file.write(WriteUtil.SKIP + "<p align=\"center\">");
+                        file.write(WriteUtil.SKIP + "<img src=https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=C+Developer\">");
+                        file.write(WriteUtil.SKIP + "</p>");
+                        break;
+
+                    case "7":
+                        file.write(WriteUtil.SKIP);
+                        file.write(WriteUtil.SKIP + "<!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->");
+                        file.write(WriteUtil.SKIP + "<p align=\"center\">");
+                        file.write(WriteUtil.SKIP + "<img src=https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=C%2B%2B+Developer\">");
+                        file.write(WriteUtil.SKIP + "</p>");
+                        break;
+
+                    case "8":
+                        file.write(WriteUtil.SKIP);
+                        file.write(WriteUtil.SKIP + "<!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->");
+                        file.write(WriteUtil.SKIP + "<p align=\"center\">");
+                        file.write(WriteUtil.SKIP + "<img src=https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=C%23+Developer\">");
+                        file.write(WriteUtil.SKIP + "</p>");
+                        break;
+
+                    case "9":
+                        file.write(WriteUtil.SKIP);
+                        file.write(WriteUtil.SKIP + "<!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->");
+                        file.write(WriteUtil.SKIP + "<p align=\"center\">");
+                        file.write(WriteUtil.SKIP + "<img src=https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=JavaScript+Developer\">");
+                        file.write(WriteUtil.SKIP + "</p>");
+                        break;
+
+                    case "10":
+                        file.write(WriteUtil.SKIP);
+                        file.write(WriteUtil.SKIP + "<!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->");
+                        file.write(WriteUtil.SKIP + "<p align=\"center\">");
+                        file.write(WriteUtil.SKIP + "<img src=https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=PHP+Developer\">");
+                        file.write(WriteUtil.SKIP + "</p>");
+                        break;
+
+                    case "11":
+                        file.write(WriteUtil.SKIP);
+                        file.write(WriteUtil.SKIP + "<!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->");
+                        file.write(WriteUtil.SKIP + "<p align=\"center\">");
+                        file.write(WriteUtil.SKIP + "<img src=https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Kotlin+Developer\">");
+                        file.write(WriteUtil.SKIP + "</p>");
+                        break;
+
+                    case "12":
+                        file.write(WriteUtil.SKIP);
+                        file.write(WriteUtil.SKIP + "<!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->");
+                        file.write(WriteUtil.SKIP + "<p align=\"center\">");
+                        file.write(WriteUtil.SKIP + "<img src=https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Discord+Bot+Developer;Java+Developer;Frontend+Developer;Backend+Developer;Fullstack+Developer;C+Developer;C%2B%2B+Developer;C%23+Developer;JavaScript+Developer;PHP+Developer;Kotlin+Developer\">");
+                        file.write(WriteUtil.SKIP + "</p>");
+                        break;
                 }
                 System.out.println("Contact ME:");
                 Thread.sleep(300);
@@ -107,7 +247,7 @@ public class main {
                         break;
 
                     case "2":
-                        System.out.print(ColourUtil.PURPLE + "Please enter your Discord ID");
+                        System.out.print(ColourUtil.PURPLE + "Please enter your Discord ID: ");
 
                         Scanner discord = new Scanner(System.in);
                         String discordid = discord.next();
@@ -121,7 +261,7 @@ public class main {
                         file.write(WriteUtil.SKIP + "# Contact Me:");
                         file.write(WriteUtil.SKIP + "- Github:" + " [" + username + "]" + "(https://github.com/" + username + ")");
 
-                        System.out.print(ColourUtil.PURPLE + "Please enter your Discord ID ");
+                        System.out.print(ColourUtil.PURPLE + "Please enter your Discord ID: ");
 
                         discord = new Scanner(System.in);
                         discordid = discord.next();
@@ -169,19 +309,19 @@ public class main {
                 System.out.println("Featured Projects");
                 Thread.sleep(300);
 
-                System.out.println(ColourUtil.PURPLE + "1. 1 Project ");
+                System.out.println(ColourUtil.PURPLE + "1. One Project ");
                 Thread.sleep(300);
 
-                System.out.println(ColourUtil.PURPLE + "2. 2 Projects ");
+                System.out.println(ColourUtil.PURPLE + "2. Two Projects ");
                 Thread.sleep(300);
 
                 System.out.println(ColourUtil.PURPLE + "3. None");
                 Thread.sleep(300);
 
                 Scanner project = new Scanner(System.in);
-                String proj = project.next();
+                String projectans = project.next();
 
-                switch (proj) {
+                switch (projectans) {
 
                     case "1":
 
@@ -219,6 +359,7 @@ public class main {
                 System.out.println(ColourUtil.RED + "Writing to file failed." + ColourUtil.RESET);
 
             } finally {
+                if (file != null) ;
                 file.close();
             }
 
