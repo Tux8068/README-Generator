@@ -54,25 +54,24 @@ public class main {
 
 
             try {
-                file.write("<!-- ReadMD generator by Thnks_CJ and Tuxiscool -->" + WriteUtil.SKIP);
                 file.write("<h3 align=\"center\">" + WriteUtil.SKIP);
-                file.write("Welcome to " + username + "'s profile!" + WriteUtil.SKIP);
+                file.write("  Welcome to " + username + "'s profile!" + WriteUtil.SKIP);
 
                 switch (gifnum) {
 
                     default:
                     case "1":
-                        file.write("<img src=https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif\" width=\"28\">");
+                        file.write("<img src=https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif width=\"28\">");
                         file.write(WriteUtil.SKIP + "</h3>" + WriteUtil.SKIP);
                         break;
 
                     case "2":
-                        file.write("<img src=https://cdn.cjstevenson.com/images/dino.gif?1556902250\" width=\"28\">");
+                        file.write("<img src=https://cdn.cjstevenson.com/images/dino.gif?1556902250 width=\"28\">");
                         file.write(WriteUtil.SKIP + "</h3>");
                         break;
 
                     case "3":
-                        file.write("<img src=https://64.media.tumblr.com/3ececbb033456396a8cdb3483153f1c6/tumblr_muby2mnWSc1qhl91yo1_r1_250.gifv\" width=\"28\">");
+                        file.write("<img src=https://64.media.tumblr.com/3ececbb033456396a8cdb3483153f1c6/tumblr_muby2mnWSc1qhl91yo1_r1_250.gifv width=\"28\">");
                         file.write(WriteUtil.SKIP + "</h3>" + WriteUtil.SKIP);
                         break;
 
@@ -126,7 +125,7 @@ public class main {
                         file.write(WriteUtil.SKIP);
                         file.write(WriteUtil.SKIP + "<!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->");
                         file.write(WriteUtil.SKIP + "<p align=\"center\">");
-                        file.write(WriteUtil.SKIP + "<img src=https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Discord+Bot+Developer\">");
+                        file.write(WriteUtil.SKIP + "<img src=\"https://readme-typing-svg.herokuapp.com/?lines=Discord+Bot+Developer&font=Fira%20Code&center=true&width=440&height=45&color=36BCF7&vCenter=true&size=22\">");
                         file.write(WriteUtil.SKIP + "</p>");
                         break;
 
@@ -134,7 +133,7 @@ public class main {
                         file.write(WriteUtil.SKIP);
                         file.write(WriteUtil.SKIP + "<!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->");
                         file.write(WriteUtil.SKIP + "<p align=\"center\">");
-                        file.write(WriteUtil.SKIP + "<img src=https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Java+Developer\">");
+                        file.write(WriteUtil.SKIP + "<img src=\"https://readme-typing-svg.herokuapp.com/?lines=Java+Developer&font=Fira%20Code&center=true&width=440&height=45&color=36BCF7&vCenter=true&size=22\">");
                         file.write(WriteUtil.SKIP + "</p>");
                         break;
 
@@ -142,7 +141,7 @@ public class main {
                         file.write(WriteUtil.SKIP);
                         file.write(WriteUtil.SKIP + "<!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->");
                         file.write(WriteUtil.SKIP + "<p align=\"center\">");
-                        file.write(WriteUtil.SKIP + "<img src=https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Frontend+Developer\">");
+                        file.write(WriteUtil.SKIP + "<img src=\"https://readme-typing-svg.herokuapp.com/?lines=Frontend+Developer&font=Fira%20Code&center=true&width=440&height=45&color=36BCF7&vCenter=true&size=22\">");
                         file.write(WriteUtil.SKIP + "</p>");
                         break;
 
@@ -150,7 +149,7 @@ public class main {
                         file.write(WriteUtil.SKIP);
                         file.write(WriteUtil.SKIP + "<!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->");
                         file.write(WriteUtil.SKIP + "<p align=\"center\">");
-                        file.write(WriteUtil.SKIP + "<img src=https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Backend+Developer\">");
+                        file.write(WriteUtil.SKIP + "<img src=\"https://readme-typing-svg.herokuapp.com/?lines=Backend+Developer&font=Fira%20Code&center=true&width=440&height=45&color=36BCF7&vCenter=true&size=22\">");
                         file.write(WriteUtil.SKIP + "</p>");
                         break;
 
@@ -158,7 +157,7 @@ public class main {
                         file.write(WriteUtil.SKIP);
                         file.write(WriteUtil.SKIP + "<!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->");
                         file.write(WriteUtil.SKIP + "<p align=\"center\">");
-                        file.write(WriteUtil.SKIP + "<img src=https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Fullstack+Developer\">");
+                        file.write(WriteUtil.SKIP + "<img src=\"https://readme-typing-svg.herokuapp.com/?lines=Fullstack+Developer&font=Fira%20Code&center=true&width=440&height=45&color=36BCF7&vCenter=true&size=22\">");
                         file.write(WriteUtil.SKIP + "</p>");
                         break;
 
@@ -166,7 +165,7 @@ public class main {
                         file.write(WriteUtil.SKIP);
                         file.write(WriteUtil.SKIP + "<!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->");
                         file.write(WriteUtil.SKIP + "<p align=\"center\">");
-                        file.write(WriteUtil.SKIP + "<img src=https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=C+Developer\">");
+                        file.write(WriteUtil.SKIP + "<img src=\"https://readme-typing-svg.herokuapp.com/?lines=C+Developer&font=Fira%20Code&center=true&width=440&height=45&color=36BCF7&vCenter=true&size=22\">");
                         file.write(WriteUtil.SKIP + "</p>");
                         break;
 
@@ -174,7 +173,7 @@ public class main {
                         file.write(WriteUtil.SKIP);
                         file.write(WriteUtil.SKIP + "<!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->");
                         file.write(WriteUtil.SKIP + "<p align=\"center\">");
-                        file.write(WriteUtil.SKIP + "<img src=https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=C%2B%2B+Developer\">");
+                        file.write(WriteUtil.SKIP + "<img src=\"https://readme-typing-svg.herokuapp.com/?lines=C%2B%2B+Developer&font=Fira%20Code&center=true&width=440&height=45&color=36BCF7&vCenter=true&size=22\">");
                         file.write(WriteUtil.SKIP + "</p>");
                         break;
 
@@ -182,7 +181,7 @@ public class main {
                         file.write(WriteUtil.SKIP);
                         file.write(WriteUtil.SKIP + "<!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->");
                         file.write(WriteUtil.SKIP + "<p align=\"center\">");
-                        file.write(WriteUtil.SKIP + "<img src=https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=C%23+Developer\">");
+                        file.write(WriteUtil.SKIP + "<img src=\"https://readme-typing-svg.herokuapp.com/?lines=C%23+Developer&font=Fira%20Code&center=true&width=440&height=45&color=36BCF7&vCenter=true&size=22\">");
                         file.write(WriteUtil.SKIP + "</p>");
                         break;
 
@@ -190,7 +189,7 @@ public class main {
                         file.write(WriteUtil.SKIP);
                         file.write(WriteUtil.SKIP + "<!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->");
                         file.write(WriteUtil.SKIP + "<p align=\"center\">");
-                        file.write(WriteUtil.SKIP + "<img src=https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=JavaScript+Developer\">");
+                        file.write(WriteUtil.SKIP + "<img src=\"https://readme-typing-svg.herokuapp.com/?lines=JavaScript+Developer&font=Fira%20Code&center=true&width=440&height=45&color=36BCF7&vCenter=true&size=22\">");
                         file.write(WriteUtil.SKIP + "</p>");
                         break;
 
@@ -198,7 +197,7 @@ public class main {
                         file.write(WriteUtil.SKIP);
                         file.write(WriteUtil.SKIP + "<!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->");
                         file.write(WriteUtil.SKIP + "<p align=\"center\">");
-                        file.write(WriteUtil.SKIP + "<img src=https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=PHP+Developer\">");
+                        file.write(WriteUtil.SKIP + "<img src=\"https://readme-typing-svg.herokuapp.com/?lines=PHP+Developer&font=Fira%20Code&center=true&width=440&height=45&color=36BCF7&vCenter=true&size=22\">");
                         file.write(WriteUtil.SKIP + "</p>");
                         break;
 
@@ -206,7 +205,7 @@ public class main {
                         file.write(WriteUtil.SKIP);
                         file.write(WriteUtil.SKIP + "<!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->");
                         file.write(WriteUtil.SKIP + "<p align=\"center\">");
-                        file.write(WriteUtil.SKIP + "<img src=https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Kotlin+Developer\">");
+                        file.write(WriteUtil.SKIP + "<img src=\"https://readme-typing-svg.herokuapp.com/?lines=Kotlin+Developer&font=Fira%20Code&center=true&width=440&height=45&color=36BCF7&vCenter=true&size=22\">");
                         file.write(WriteUtil.SKIP + "</p>");
                         break;
 
@@ -214,11 +213,62 @@ public class main {
                         file.write(WriteUtil.SKIP);
                         file.write(WriteUtil.SKIP + "<!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->");
                         file.write(WriteUtil.SKIP + "<p align=\"center\">");
-                        file.write(WriteUtil.SKIP + "<img src=https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Discord+Bot+Developer;Java+Developer;Frontend+Developer;Backend+Developer;Fullstack+Developer;C+Developer;C%2B%2B+Developer;C%23+Developer;JavaScript+Developer;PHP+Developer;Kotlin+Developer\">");
+                        file.write(WriteUtil.SKIP + "<img src=\"https://readme-typing-svg.herokuapp.com/?lines=Discord+Bot+Developer;Java+Developer;Frontend+Developer;Backend+Developer;Fullstack+Developer;C+Developer;C%2B%2B+Developer;C%23+Developer;JavaScript+Developer;PHP+Developer;Kotlin+Developer&font=Fira%20Code&center=true&width=440&height=45&color=36BCF7&vCenter=true&size=22\">");
                         file.write(WriteUtil.SKIP + "</p>");
                         break;
                 }
-                System.out.println("Contact ME:");
+                System.out.println("Info About What You Are Doing:");
+                Thread.sleep(300);
+
+                System.out.println(ColourUtil.PURPLE + "1. FAQ");
+                Thread.sleep(300);
+
+                System.out.println(ColourUtil.PURPLE + "2. None");
+                Thread.sleep(300);
+
+                Scanner svg = new Scanner(System.in);
+                String svgans = svg.next();
+
+
+                switch (svgans) {
+
+                    case "1":
+                        System.out.print(ColourUtil.PURPLE + "What Are You Currently Working on? : ");
+
+                        Scanner won = new Scanner(System.in);
+                        String wonans = won.next();
+
+                        file.write(WriteUtil.SKIP);
+                        file.write(WriteUtil.SKIP + "# More About Me:");
+                        file.write(WriteUtil.SKIP + "- I'm currently working on " + wonans + "");
+
+                        System.out.print(ColourUtil.PURPLE + "What Are You Currently learning? : ");
+
+                        Scanner learn = new Scanner(System.in);
+                        String learnans = learn.next();
+
+                        file.write(WriteUtil.SKIP + "- I'm currently learning " + learnans + "");
+
+                        System.out.print(ColourUtil.PURPLE + "A cool thing you have made : ");
+
+                        Scanner contact = new Scanner(System.in);
+                        String contactans = contact.next();
+
+                        file.write(WriteUtil.SKIP + "- A Cool thing I have made is " + contactans + "");
+
+                        System.out.print(ColourUtil.PURPLE + "Fun fact about you : ");
+
+                        Scanner ffact = new Scanner(System.in);
+                        String ffactans = ffact.next();
+
+                        file.write(WriteUtil.SKIP + "- Fun fact " + ffactans + "");
+                        file.write(WriteUtil.SKIP);
+                        break;
+
+                    case "2":
+                }
+
+                System.out.println("Contact Me:");
                 Thread.sleep(300);
 
                 System.out.println(ColourUtil.PURPLE + "1. Github");
@@ -247,7 +297,7 @@ public class main {
                         break;
 
                     case "2":
-                        System.out.print(ColourUtil.PURPLE + "Please enter your Discord ID: ");
+                        System.out.print(ColourUtil.PURPLE + "Please enter your Discord ID");
 
                         Scanner discord = new Scanner(System.in);
                         String discordid = discord.next();
@@ -272,7 +322,6 @@ public class main {
                     case "4":
                 }
 
-
                 System.out.println("Please choose additional info.");
                 Thread.sleep(300);
 
@@ -288,9 +337,6 @@ public class main {
 
 
                 switch (stat) {
-
-
-
                     case "1":
                         file.write(WriteUtil.SKIP);
                         file.write(WriteUtil.SKIP + "# Statistics");
@@ -324,7 +370,6 @@ public class main {
                 switch (projectans) {
 
                     case "1":
-
                         System.out.print("Please enter your repo.");
                         Scanner repo = new Scanner(System.in);
                         String rep = repo.next();
@@ -335,11 +380,11 @@ public class main {
                         break;
 
                     case "2":
-                        System.out.print("Please enter repo #1");
+                        System.out.print("Please enter repo #1: ");
                         Scanner repo1 = new Scanner(System.in);
                         String rep1 = repo1.next();
 
-                        System.out.print("Please enter repo #2");
+                        System.out.print("Please enter repo #2: ");
                         Scanner repo2 = new Scanner(System.in);
                         String rep2 = repo2.next();
 
